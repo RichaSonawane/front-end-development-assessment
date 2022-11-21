@@ -128,6 +128,11 @@ div {
   background-color: red;
   transition: 0.7s;
 }
-[type="checkbox"] {
+.checkbox {
+  padding-left: 10px;
+  position: relative;
   vertical-align: middle;
+}
+.checkbox input {
+  float: left;
 }
